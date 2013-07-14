@@ -18,6 +18,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    /*
+    NSArray *fontNames = [UIFont familyNames];
+    for (NSString *familyName in fontNames) {
+        NSLog(@"Font family name = %@", familyName);
+        NSArray *names = [UIFont fontNamesForFamilyName:familyName];
+        NSLog(@"Font names = %@", names);
+    }
+    */
 }
 
 - (void)didReceiveMemoryWarning

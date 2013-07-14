@@ -24,6 +24,11 @@
 		41A208441791773200C52DE9 /* FontSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A208431791773200C52DE9 /* FontSecondViewController.m */; };
 		41A208461791773200C52DE9 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A208451791773200C52DE9 /* second.png */; };
 		41A208481791773200C52DE9 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41A208471791773200C52DE9 /* second@2x.png */; };
+		41A2085117917A4100C52DE9 /* Museo300-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41A2084E17917A4100C52DE9 /* Museo300-Regular.otf */; };
+		41A2085217917A4100C52DE9 /* Museo500-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41A2084F17917A4100C52DE9 /* Museo500-Regular.otf */; };
+		41A2085317917A4100C52DE9 /* Museo700-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 41A2085017917A4100C52DE9 /* Museo700-Regular.otf */; };
+		41A2085617917DF200C52DE9 /* UILabel+UILabel_TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A2085517917DF200C52DE9 /* UILabel+UILabel_TCCustomFont.m */; };
+		41A2085E1792416900C52DE9 /* MBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A2085D1792416900C52DE9 /* MBTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +55,13 @@
 		41A208431791773200C52DE9 /* FontSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontSecondViewController.m; sourceTree = "<group>"; };
 		41A208451791773200C52DE9 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		41A208471791773200C52DE9 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		41A2084E17917A4100C52DE9 /* Museo300-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo300-Regular.otf"; sourceTree = "<group>"; };
+		41A2084F17917A4100C52DE9 /* Museo500-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo500-Regular.otf"; sourceTree = "<group>"; };
+		41A2085017917A4100C52DE9 /* Museo700-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Museo700-Regular.otf"; sourceTree = "<group>"; };
+		41A2085417917DF200C52DE9 /* UILabel+UILabel_TCCustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+UILabel_TCCustomFont.h"; sourceTree = "<group>"; };
+		41A2085517917DF200C52DE9 /* UILabel+UILabel_TCCustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+UILabel_TCCustomFont.m"; sourceTree = "<group>"; };
+		41A2085A17923FFD00C52DE9 /* MBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTextView.h; sourceTree = "<group>"; };
+		41A2085D1792416900C52DE9 /* MBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,10 @@
 				41A208451791773200C52DE9 /* second.png */,
 				41A208471791773200C52DE9 /* second@2x.png */,
 				41A208241791773200C52DE9 /* Supporting Files */,
+				41A2085417917DF200C52DE9 /* UILabel+UILabel_TCCustomFont.h */,
+				41A2085517917DF200C52DE9 /* UILabel+UILabel_TCCustomFont.m */,
+				41A2085A17923FFD00C52DE9 /* MBTextView.h */,
+				41A2085D1792416900C52DE9 /* MBTextView.m */,
 			);
 			path = FontSandbox1;
 			sourceTree = "<group>";
@@ -116,6 +132,9 @@
 		41A208241791773200C52DE9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				41A2084E17917A4100C52DE9 /* Museo300-Regular.otf */,
+				41A2084F17917A4100C52DE9 /* Museo500-Regular.otf */,
+				41A2085017917A4100C52DE9 /* Museo700-Regular.otf */,
 				41A208251791773200C52DE9 /* FontSandbox1-Info.plist */,
 				41A208261791773200C52DE9 /* InfoPlist.strings */,
 				41A208291791773200C52DE9 /* main.m */,
@@ -189,6 +208,9 @@
 				41A208411791773200C52DE9 /* first@2x.png in Resources */,
 				41A208461791773200C52DE9 /* second.png in Resources */,
 				41A208481791773200C52DE9 /* second@2x.png in Resources */,
+				41A2085117917A4100C52DE9 /* Museo300-Regular.otf in Resources */,
+				41A2085217917A4100C52DE9 /* Museo500-Regular.otf in Resources */,
+				41A2085317917A4100C52DE9 /* Museo700-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +225,8 @@
 				41A2082E1791773200C52DE9 /* FontAppDelegate.m in Sources */,
 				41A2083D1791773200C52DE9 /* FontFirstViewController.m in Sources */,
 				41A208441791773200C52DE9 /* FontSecondViewController.m in Sources */,
+				41A2085617917DF200C52DE9 /* UILabel+UILabel_TCCustomFont.m in Sources */,
+				41A2085E1792416900C52DE9 /* MBTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontSandbox1/FontSandbox1-Prefix.pch";
 				INFOPLIST_FILE = "FontSandbox1/FontSandbox1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -311,6 +336,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontSandbox1/FontSandbox1-Prefix.pch";
 				INFOPLIST_FILE = "FontSandbox1/FontSandbox1-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
