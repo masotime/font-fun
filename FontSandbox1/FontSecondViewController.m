@@ -7,6 +7,7 @@
 //
 
 #import "FontSecondViewController.h"
+#import "Utility.h"
 
 @interface FontSecondViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // Load it to the webview
+    [Utility load:self.content withHTMLFile:@"news.html"];
+    [Utility removeBackgroundShadows:self.content withBackground:[UIColor whiteColor]];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +32,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidUnload {
+    [self setContent:nil];
+    [super viewDidUnload];
+}
 @end

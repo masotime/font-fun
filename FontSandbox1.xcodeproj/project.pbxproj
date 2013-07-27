@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4161D9AC17A3AD130074F9A4 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4161D9AB17A3AD130074F9A4 /* Utility.m */; };
+		4161D9AF17A3B6BA0074F9A4 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 4161D9AE17A3B6BA0074F9A4 /* test.html */; };
+		4161D9B117A3DF760074F9A4 /* news.html in Resources */ = {isa = PBXBuildFile; fileRef = 4161D9B017A3DF760074F9A4 /* news.html */; };
 		41A2081E1791773200C52DE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A2081D1791773200C52DE9 /* UIKit.framework */; };
 		41A208201791773200C52DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A2081F1791773200C52DE9 /* Foundation.framework */; };
 		41A208221791773200C52DE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A208211791773200C52DE9 /* CoreGraphics.framework */; };
@@ -32,6 +35,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4161D9AA17A3AD130074F9A4 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		4161D9AB17A3AD130074F9A4 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		4161D9AE17A3B6BA0074F9A4 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		4161D9B017A3DF760074F9A4 /* news.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = news.html; sourceTree = "<group>"; };
 		41A2081A1791773200C52DE9 /* FontSandbox1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontSandbox1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A2081D1791773200C52DE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41A2081F1791773200C52DE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -78,6 +85,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4161D9A917A3AD030074F9A4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4161D9AA17A3AD130074F9A4 /* Utility.h */,
+				4161D9AB17A3AD130074F9A4 /* Utility.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		4161D9AD17A3B69E0074F9A4 /* Test Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4161D9AE17A3B6BA0074F9A4 /* test.html */,
+				4161D9B017A3DF760074F9A4 /* news.html */,
+			);
+			name = "Test Resources";
+			sourceTree = "<group>";
+		};
 		41A208111791773200C52DE9 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +133,8 @@
 		41A208231791773200C52DE9 /* FontSandbox1 */ = {
 			isa = PBXGroup;
 			children = (
+				4161D9AD17A3B69E0074F9A4 /* Test Resources */,
+				4161D9A917A3AD030074F9A4 /* Utils */,
 				41A2082C1791773200C52DE9 /* FontAppDelegate.h */,
 				41A2082D1791773200C52DE9 /* FontAppDelegate.m */,
 				41A208351791773200C52DE9 /* MainStoryboard_iPhone.storyboard */,
@@ -211,6 +238,8 @@
 				41A2085117917A4100C52DE9 /* Museo300-Regular.otf in Resources */,
 				41A2085217917A4100C52DE9 /* Museo500-Regular.otf in Resources */,
 				41A2085317917A4100C52DE9 /* Museo700-Regular.otf in Resources */,
+				4161D9AF17A3B6BA0074F9A4 /* test.html in Resources */,
+				4161D9B117A3DF760074F9A4 /* news.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +256,7 @@
 				41A208441791773200C52DE9 /* FontSecondViewController.m in Sources */,
 				41A2085617917DF200C52DE9 /* UILabel+UILabel_TCCustomFont.m in Sources */,
 				41A2085E1792416900C52DE9 /* MBTextView.m in Sources */,
+				4161D9AC17A3AD130074F9A4 /* Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +391,7 @@
 				41A2084D1791773200C52DE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FontSecondViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIWebView *content;
 
 @end
